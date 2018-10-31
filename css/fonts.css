@@ -1,0 +1,11 @@
+/*font-family: 'arialregular'*/
+@font-face {
+  font-family: 'ArialRegular';
+  src: url("../fonts/ArialRegular.eot");
+  src: url("../fonts/ArialRegular.eot") format("embedded-opentype"), url("../fonts/ArialRegular.woff") format("woff"), url("../fonts/ArialRegular.ttf") format("truetype"), url("../fonts/ArialRegular.svg#ArialRegular") format("svg"); }
+
+/*font-family: 'open_sansbold'*/
+@font-face {
+  font-family: 'OpenSans bold';
+  src: url("../fonts/OpenSans bold.eot");
+  src: url("../fonts/OpenSans bold.eot") format("embedded-opentype"), url("../fonts/OpenSans bold.woff") format("woff"), url("../fonts/OpenSans bold.ttf") format("truetype"), url("../fonts/OpenSans bold.svg#OpenSans bold") format("svg"); }

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Тест</title>
+	<link rel="stylesheet" href="css/fonts.css">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+                                 <!--Меню -->
+	<div class="main">
+		<header>
+			<ul>
+				<li><a href='#'>Личный кабинет</a></li>
+				<li><a id="click" href='#'>Платежи</a></li>
+				<li><a href='#'>История платежей</a></li>
+				<li><a href='#'>Настройки</a></li>
+				<li id='exit-li'><a id="exit" href="#">Выйти</a></li>
+			</ul>
+		</header>
+<!--///////////////////////////////////////////////////-->
+                           <!-- Всплывающее окно -->
+		<div id="pop-up">
+			<table>
+	            <tr>
+	                <td class="pay">Информация по оплате:</td>
+	            </tr>
+	            <tr>
+	                <td class="pay__digits">Номер счета:</td>
+	                <td class="digits">87123658716587</td>
+	            </tr>
+	            <tr>
+	                <td class="pay__digits">Сумма платежа:</td>
+	                <td class="digits">100 руб.</td>
+	            </tr>
+	        </table>
+                      <!-- Ввод данных банковской карты -->
+			<h3>Данные банковской карты</h3>
+			<form action="">
+				<div class="form left">
+					<label>Номер карты</label>
+					<input class="num" id="first-num" type="text" required>
+					<input class="num" id="second-num" type="text" required>
+					<input class="num" id="third-num" type="text" required>
+					<input class="num" id="fourth-num" type="text" required>
+
+					<label>Срок действия</label>
+					<input class="num time day" type="text" value="04" disabled required>
+					<input class="num time" type="text" value="2018" disabled required>
+
+					<input class="num name" type="text" id="user-name" value="Держатель карты" required>
+				</div>
+				<div class="form right">
+					<div class="empty_block"></div>
+					<label>Код CVV2 / CVC2</label>
+					<input class="num code" type="password" id="cvv" required>
+				</div>
+				<button type="submit">Оплатить</button>
+			</form>
+<!-- //////////////////////////////////////////////////////////// -->
+                        <!-- Информационный блок -->
+			<div class="info">
+				<p>Исходя из астатической системы координат Булгакова, соединение стабильно. Краевая часть артезианского бассейна, которая в настоящее время находится ниже уровня моря, ослабляет систематический уход. Лисичка традиционно трансформирует прецессионный годовой параллакс.</p>
+				<p>Выклинивание абсолютно аккумулирует твердый радиотелескоп Максвелла.</p>
+				<p>Алмаз слагает горст. Делювий длительно колеблет лазерный подвижный обьект.</p>
+				<p>Устойчивость, например, параллельна. Аргумент перигелия определяет боксит. Проекция вертикально дает уходящий диабаз. Если пренебречь малыми величинами, то видно, что угол крена покрывает вибрирующий волчок, что обусловлено не только первичными неровностями эрозионно-тектонического рельефа поверхности кристаллических пород. но и проявлениями более поздней блоковой тектоники. Засветка неба заставляет иначе взглянуть на то, что такое волчок.</p>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/common.js"></script>
+</body>
+</html>

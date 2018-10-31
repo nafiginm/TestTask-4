@@ -1,0 +1,235 @@
+body {
+  background: #000;
+  font-family: 'ArialRegular';
+  margin: 80px 15px; }
+
+.main {
+  max-width: 970px;
+  margin: auto; }
+
+header {
+  font-size: 18px;
+  font-family: 'OpenSans bold';
+  width: 325px;
+  float: left; }
+  header li {
+    padding: 30px 0 30px 30px;
+    background: #191C24;
+    border-bottom: 1px solid #20232B; }
+    header li:last-child {
+      border-bottom: none; }
+    header li:last-child a {
+      color: #808592; }
+    header li:hover {
+      background: #2A2D37; }
+    header li:hover a {
+      color: #808592; }
+
+a {
+  text-decoration: none;
+  color: #fff;
+  outline: none; }
+
+li:checked {
+  background: #2A2D37; }
+
+li:checked a {
+  color: #808592; }
+
+#pop-up {
+  display: none;
+  background: #F7F8F8;
+  float: left;
+  width: 645px; }
+
+table {
+  margin: 50px 0 40px 25px;
+  color: #8494AB;
+  font-size: 16px; }
+
+.pay {
+  padding-bottom: 25px; }
+
+.pay__digits {
+  padding-bottom: 10px; }
+
+.digits {
+  padding-bottom: 10px;
+  color: #000; }
+
+h3 {
+  font-size: 21.98px;
+  font-family: 'OpenSans bold';
+  margin: 0 0 0 25px; }
+
+.form {
+  height: 240px;
+  width: 400px;
+  border: 1px solid #E4E9EE;
+  border-radius: 5px;
+  padding: 15px 0 10px 15px;
+  margin: 25px;
+  position: relative;
+  float: right; }
+
+.left {
+  float: left;
+  position: absolute;
+  z-index: 1;
+  background: #F7F8F8; }
+
+label {
+  display: block;
+  font-size: 16px;
+  margin: 15px 0 10px 0;
+  color: #8494AB; }
+  label:first-child {
+    margin-top: 0; }
+
+.num {
+  border: 1px solid #E4E9EE;
+  width: 65px;
+  height: 40px;
+  margin-right: 10px;
+  padding-left: 15px; }
+  .num:last-child {
+    margin-right: 0; }
+
+.time {
+  width: 90px;
+  background: url("../img/1.png") #fff 65px center no-repeat;
+  color: #000; }
+
+.day {
+  width: 70px;
+  background-position: 45px center; }
+
+.name {
+  width: 320px;
+  margin: 15px 0;
+  color: #BEC6CF; }
+  .name:focus {
+    color: #000; }
+
+.right {
+  top: 20px;
+  margin-right: 45px; }
+  .right label {
+    text-align: right;
+    margin-right: 25px; }
+  .right .code {
+    width: 135px;
+    float: right;
+    margin-right: 15px;
+    background: url(../img/2.png) #fff 100px center no-repeat; }
+
+.empty_block {
+  background: #E4E9EE;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px; }
+
+button {
+  padding: 15px 30px;
+  margin-left: 40px;
+  background: #0052AE;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 14px;
+  font-family: 'ArialRegular';
+  font-weight: bold;
+  top: 310px;
+  position: relative; }
+
+.info {
+  max-width: 645px;
+  padding: 25px 45px 25px 25px;
+  float: right;
+  background: #373C43;
+  color: #89909D;
+  font-size: 12px;
+  margin-top: 120px; }
+  .info p {
+    padding-bottom: 20px; }
+    .info p:last-child {
+      padding-bottom: 0; }
+
+@media screen and (max-width: 1000px) {
+  .main {
+    max-width: 738px; }
+  header {
+    width: 200px; }
+  #pop-up {
+    width: 538px; }
+  .form {
+    width: 340px;
+    margin: 15px; }
+  .right {
+    margin-right: 15px; }
+  button {
+    top: 30px; }
+  .info {
+    margin-top: 60px; } }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-top: 30px; }
+  header {
+    width: 325px;
+    float: none;
+    margin: auto; }
+  #pop-up {
+    width: 450px;
+    margin: auto;
+    float: none;
+    padding: 20px 0; }
+  table {
+    margin: 10px 0 20px 25px; }
+  .form {
+    width: 250px; }
+  .num {
+    width: 45px;
+    margin-right: 10px;
+    padding-left: 5px; }
+  .time {
+    width: 90px;
+    margin-right: 15px;
+    padding-left: 15px; }
+  .day {
+    width: 70px; }
+  .name {
+    width: 220px;
+    font-size: 14px; }
+  .code {
+    padding-left: 15px; }
+  button {
+    top: 0; }
+  .info {
+    margin-top: 20px; } }
+
+@media screen and (max-width: 480px) {
+  header {
+    width: 290px; }
+  #pop-up {
+    width: 290px; }
+  table {
+    margin: 0 0 20px 25px;
+    color: #8494AB;
+    font-size: 15px; }
+  .digits {
+    padding-right: 25px; }
+  h3 {
+    font-size: 18px; }
+  label {
+    font-size: 15px; }
+  .form {
+    position: static;
+    margin-bottom: 0; }
+  .right {
+    margin-right: 25px;
+    margin-top: 0;
+    height: 180px; }
+  button {
+    top: 10px;
+    margin-left: 20px; } }
